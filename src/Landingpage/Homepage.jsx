@@ -53,71 +53,122 @@ const Portfolio = () => {
   const data = {
     personal: {
       name: "Shani Vaishnav",
-      title: "Cyber Security Analyst",
+      title: "Full Stack Developer",
       tagline: "Building digital experiences that matter",
-      email: "wwww.sunnyvaishnavh777@gmail.com",
+      email: "shanivaishnav7@gmail.com",
       phone: "+91 8949640984",
       location: "Udaipur ,Rajasthan(India)",
-      bio: "Passionate cybersecurity analyst with 1+ year of hands-on experience protecting systems and responding to threats in real time. I enjoy turning complex security challenges into clear, actionable solutions and thrive on keeping digital environments safe and resilient",
-      mission: "My mission is to bridge the gap between security and usability, building digital environments that are not only secure and resilient but also efficient and user-friendly."
+      bio: "Passionate Java Full Stack Developer with 1+ year of experience building secure, high-performance web applications using modern Java frameworks and frontend technologies. Skilled at integrating cybersecurity best practices and leveraging AI-driven tools to enhance user experience, automate tasks, and safeguard digital assets. I enjoy transforming complex challenges into scalable, intelligent, and secure solutions.",
+      mission: "My mission is to bridge the gap between functionality and security by building full-stack applications that are not only robust and scalable, but also intuitive and user-friendly. I strive to deliver solutions that blend performance, modern design, and secure coding practices for a seamless digital experience."
     },
     skills: {
       OS: [
-        { name: "Linux Basic", level: 90 }, { name: "Windows Basic", level: 95 },
-        { name: "Linux Cli", level: 85 }, { name: "Bash script", level: 88 }, { name: "log", level: 82 }
+        { name: "Linux Basic", level: 85 },
+        { name: "Windows", level: 90 },
+        { name: "Linux CLI", level: 80 },
+        { name: "Bash Scripting", level: 75 },
+        { name: "Shell Script", level: 70 }
       ],
-      SIEM: [
-        { name: "Splunk", level: 85 },
-        { name: "IBM QRadar", level: 80 },
-        { name: "Microsoft Sentinel", level: 78 },
-        { name: "ELK Stack", level: 75 },
-        { name: "LogRhythm", level: 70 }
+      Backend: [
+        { name: "Java (Core + OOP)", level: 90 },
+        { name: "Spring Boot", level: 85 },
+        { name: "Hibernate / JPA", level: 80 },
+        { name: "RESTful APIs", level: 88 },
+        { name: "Microservices", level: 75 }
       ],
-      tools: [
-        { name: "Wireshark", level: 90 },
-        { name: "Burp Suite", level: 85 },
-        { name: "Git", level: 92 },
-        { name: "Docker", level: 78 },
-        { name: "Kibana", level: 80 }
+      Frontend: [
+        { name: "HTML/CSS", level: 92 },
+        { name: "JavaScript", level: 90 },
+        { name: "React.js", level: 85 },
+        { name: "Bootstrap / Tailwind", level: 80 },
+        { name: "Vite", level: 78 }
+      ],
+      Database: [
+        { name: "MySQL", level: 88 },
+        { name: "MongoDB", level: 80 },
+        { name: "PostgreSQL", level: 75 },
+        { name: "JDBC", level: 70 }
+      ],
+      Tools: [
+        { name: "Git / GitHub", level: 92 },
+        { name: "Maven", level: 85 },
+        { name: "Docker", level: 75 },
+        { name: "Postman", level: 88 },
+        { name: "VS Code / IntelliJ", level: 90 }
       ]
+
     },
     projects: [
       {
         id: 1,
-        title: "LogSentinel",
-        description: "Simulates a SOC alert dashboard that parses logs, detects anomalies, and triggers alerts based on suspicious patterns.",
-        image: "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/hznelrw3e3rjufkjy7ml",
-        tech: ["React", "Python", "Flask", "SIEM Simulation"],
-        liveUrl: "#",
-        githubUrl: "#"
+        title: "Ai-Productivity-Suite (APS) ",
+        description: "Developed a full-stack AI productivity suite integrating React.js, Spring Boot, MySQL, and Gemini AI API. Implemented intelligent chat functionality with real-time messaging and AI-powered responses. Designed responsive UI using Framer Motion animations, 3D globe visualization, and theme switching capabilities. Engineered video conferencing demo with WebRTC signaling, participant management, and screen sharing features.",
+        image: "https://cdn.prod.website-files.com/623b199ca2171a083b6bb379/642465d98ad857473c5bedd8_ai-website-builder.jpg",
+        tech: ["React.js", "Spring Boot", "MySQL", "WebRTC", "Gemini AI", "Framer Motion"],
+        liveUrl: "https://ai-productivity-suite.vercel.app/",
+        githubUrl: "https://github.com/sunnyvaishnav7/Ai-Productivity-Suite"
       },
       {
         id: 2,
-        title: "ThreatPulse",
-        description: "A log correlation engine that detects brute-force attempts, privilege misuse, and other common attack patterns from simulated Windows/Linux logs.",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT50iSdQJNcwNhW-PUgAOGLK61Jf-OhP83-3Q&s",
-        tech: ["Python", "Regex", "Pandas", "Matplotlib"],
-        liveUrl: "#",
-        githubUrl: "#"
+        title: "Svelora (Ai-EMS) ",
+        description: "Engineered a comprehensive Employee Management System using React.js, Spring Boot, and MySQL. Implemented role-based authentication and authorization with secure CRUD operations for employee data. Developed department assignment features and employee profile management with real-time updates. Created responsive dashboard with performance tracking and analytics for workforce management.",
+        image: "https://www.shutterstock.com/shutterstock/videos/1089333071/thumb/9.jpg?ip=x480",
+        tech: ["React.js", "Spring Boot", "MySQL", "JWT", "Responsive Design"],
+        liveUrl: "https://svelora-git-main-sunnyvaishnav7s-projects.vercel.app/",
+        githubUrl: "https://github.com/sunnyvaishnav7/-Svelora"
       },
       {
         id: 3,
-        title: "IntruWatch",
-        description: "Visualizes security events on a timeline, allowing SOC analysts to review alerts, flag false positives, and generate basic incident reports.",
+        title: " Portfolio Website",
+        description: "Built responsive portfolio website using React.js with modern component architecture. Integrated React UI libraries for enhanced styling and smooth user interactions. Implemented automated deployment pipeline using Vercel with GitHub CI/CD integration. Optimized website performance achieving 95+ Lighthouse scores across all metrics.",
         image: "https://www.shutterstock.com/image-vector/cybersecurity-information-network-protection-future-600nw-1552462901.jpg",
-        tech: ["HTML5", "JavaScript", "Chart.js", "Bootstrap"],
-        liveUrl: "#",
-        githubUrl: "#"
+        tech: ["React.js", "CSS", "React UI Libraries", "Vercel CI/CD"]
+        ,
+        liveUrl: "https://portfolio-website-mocha-zeta-24.vercel.app/",
+        githubUrl: "https://github.com/sunnyvaishnav7/Portfolio-website.git"
+      },
+      {
+        id: 4,
+        title: "Phishing Email Scanner",
+        description: "Developed a Python-based phishing email scanner that inspects content, domains, attachments, and headers for phishing indicators. Integrated custom rules for typosquatting, risky TLDs, malicious attachment types, and manipulative keywords. Implemented domain reputation scoring and detailed result logging for real-time threat analysis.",
+        image: "https://www.shutterstock.com/shutterstock/videos/3563146233/thumb/7.jpg?ip=x480",
+        tech: ["Python", "Regex", "Email Parser", "Security Automation"],
+        liveUrl: "https://github.com/sunnyvaishnav7/phishing-email-scanner",
+        githubUrl: "https://github.com/sunnyvaishnav7/phishing-email-scanner"
+      },
+      {
+        id: 5,
+        title: "Python Keylogger (Educational Purpose Only)",
+        description: "Developed a proof-of-concept keylogger in Python strictly for educational and ethical research purposes. Demonstrates how keylogging mechanisms function for awareness and cybersecurity defense. Includes keyboard event capture, time-based logging, and file-based storage with legal disclaimers to prevent misuse.",
+        image: "https://www.shutterstock.com/image-vector/thief-hacker-ai-robot-disguised-260nw-2338004833.jpg",
+        tech: ["Python", "Pynput", "Security Research", "Ethical Hacking"],
+        liveUrl: "https://github.com/sunnyvaishnav7/keylogger",
+        githubUrl: "https://github.com/sunnyvaishnav7/keylogger"
+      },
+      {
+        id: 6,
+        title: "Employee Management System",
+        description: "Built a full-stack Employee Management System with Spring Boot backend and React.js frontend. Enabled CRUD operations, employee role assignments, and search/sort functionality. Backend follows RESTful architecture with MySQL integration, while frontend features a responsive UI with React components.",
+        image: "https://www.shutterstock.com/image-vector/hr-human-resources-management-business-600w-2159783429.jpg",
+        tech: ["React.js", "Spring Boot", "MySQL", "REST API", "Responsive Design"],
+        liveUrl: "https://github.com/sunnyvaishnav7/employeemanagementsystem",
+        githubUrl: "https://github.com/sunnyvaishnav7/employeemanagementsystem"
+      },
+      {
+        id: 7,
+        title: "Video Call Application",
+        description: "Developed a real-time video calling application using Spring Boot for WebSocket-based signaling and WebRTC for peer-to-peer video communication. Users can create and join video meetings with minimal latency. Implemented STOMP protocol for message routing and session management.",
+        image: "https://wersm.com/wp-content/uploads/2025/07/wersm-zoom-VR.jpg",
+        tech: ["Spring Boot", "WebSocket", "WebRTC", "STOMP", "JavaScript"],
+        liveUrl: "https://github.com/sunnyvaishnav7/videocall.git",
+        githubUrl: "https://github.com/sunnyvaishnav7/videocall.git"
       }
+
     ],
     experience: [
       {
-        company: "Artan Consulting", position: "Jr. Cyber Security Analyst", duration: "Jun 2024 - Present",
-        description: "Led implementation of SOC processes within a microservices environment, mentored junior SOC analysts, and enhanced threat detection and response efficiency by 40%."
-      },
-      {
-        company: " ", position: "Intern Cyber Security", duration: "Jan 2024 - Jun 2024",
-        description: "Assisted in monitoring security events using SIEM tools, collaborated with senior analysts to investigate incidents, and contributed to improving alert triage workflows."
+        company: "Artan Consulting Singapore", position: "Full Stack Developer", duration: "Jun 2024 - Present",
+        description: "Led the development of scalable microservices architecture, mentored junior developers, and improved application performance and deployment efficiency by 40%."
       }
     ],
     certificates: [
@@ -148,11 +199,11 @@ const Portfolio = () => {
     setIsMenuOpen(false);
   }, []);
 
-  const handleFormSubmit = useCallback((e) => {
-    e.preventDefault();
-    alert('Message sent! (EmailJS integration needed)');
-    setFormData({ name: '', email: '', message: '' });
-  }, []);
+  // const handleFormSubmit = useCallback((e) => {
+  //   e.preventDefault();
+  //   alert('Message sent! (EmailJS integration needed)');
+  //   setFormData({ name: '', email: '', message: '' });
+  // }, []);
 
   const handleInputChange = useCallback((e) => {
     const { name, value } = e.target;
@@ -160,7 +211,7 @@ const Portfolio = () => {
   }, []);
 
   const Resume = () => {
-    window.location.href = 'https://drive.google.com/file/d/1gruz_4b6pWQQce6BkAA-HOg1naVPjQsh/view?usp=sharing';
+    window.location.href = 'https://drive.google.com/file/d/1a3dWKAj66mtC7gnppBP5Oj2Z4r9sFn-k/view?usp=sharing';
   }
   // Throttled scroll handler
   useEffect(() => {
@@ -188,129 +239,6 @@ const Portfolio = () => {
 
   return (
     <div className={`portfolio ${isDarkMode ? 'dark' : 'light'}`}>
-      {/* <style>{`
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; }
-        
-        .portfolio { transition: all 0.3s ease; }
-        .light { --bg: #fff; --text: #333; --accent: #3b82f6; --border: #e5e7eb; --card: #f9fafb; }
-        .dark { --bg: #0f172a; --text: #f1f5f9; --accent: #60a5fa; --border: #334155; --card: #1e293b; }
-        
-        .navbar { position: fixed; top: 0; width: 100%; background: var(--bg); border-bottom: 1px solid var(--border); z-index: 1000; backdrop-filter: blur(10px); }
-        .nav-container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
-        .nav-content { display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-size: 1.5rem; font-weight: bold; color: var(--accent); }
-        .nav-menu { display: flex; gap: 2rem; }
-        .nav-link { background: none; border: none; color: var(--text); cursor: pointer; padding: 0.5rem 1rem; border-radius: 0.5rem; transition: all 0.2s; }
-        .nav-link:hover, .nav-link.active { background: var(--accent); color: white; }
-        .nav-controls { display: flex; gap: 1rem; align-items: center; }
-        .theme-toggle, .mobile-menu-toggle { background: none; border: none; color: var(--text); cursor: pointer; padding: 0.5rem; border-radius: 0.5rem; }
-        .mobile-menu-toggle { display: none; }
-        .mobile-menu { display: none; background: var(--bg); border-bottom: 1px solid var(--border); }
-        .mobile-menu-content { max-width: 1200px; margin: 0 auto; padding: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
-        .mobile-nav-link { background: none; border: none; color: var(--text); cursor: pointer; padding: 1rem; text-align: left; border-radius: 0.5rem; }
-        
-        .hero-section { min-height: 100vh; display: flex; align-items: center; background: linear-gradient(135deg, var(--bg) 0%, var(--card) 100%); position: relative; overflow: hidden; }
-        .hero-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23ddd6fe" fill-opacity="0.1"><circle cx="30" cy="30" r="2"/></g></svg>'); }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; position: relative; z-index: 1; }
-        .hero-content { display: grid; grid-template-columns: 1fr auto; gap: 4rem; align-items: center; }
-        .hero-title { font-size: 3.5rem; font-weight: bold; margin-bottom: 1rem; }
-        .hero-name { color: var(--accent); }
-        .hero-subtitle { font-size: 1.5rem; color: var(--accent); margin-bottom: 1rem; }
-        .hero-tagline { font-size: 1.2rem; color: var(--text); opacity: 0.8; margin-bottom: 2rem; }
-        .hero-buttons { display: flex; gap: 1rem; }
-        .btn-primary, .btn-secondary { padding: 1rem 2rem; border-radius: 0.5rem; border: none; cursor: pointer; font-size: 1rem; display: flex; align-items: center; gap: 0.5rem; transition: all 0.2s; }
-        .btn-primary { background: var(--accent); color: white; }
-        .btn-secondary { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
-        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3); }
-        .btn-secondary:hover { background: var(--accent); color: white; }
-        .profile-image { width: 300px; height: 300px; border-radius: 50%; object-fit: cover; border: 4px solid var(--accent); }
-        .scroll-indicator { position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); color: var(--accent); animation: bounce 2s infinite; }
-        
-        section { padding: 5rem 0; background: var(--bg); color: var(--text); }
-        section:nth-child(even) { background: var(--card); }
-        .section-header { text-align: center; margin-bottom: 3rem; }
-        .section-title { font-size: 2.5rem; font-weight: bold; margin-bottom: 1rem; }
-        .section-divider { width: 4rem; height: 3px; background: var(--accent); margin: 0 auto 1rem; }
-        .section-description { font-size: 1.1rem; opacity: 0.8; }
-        
-        .about-content { display: grid; grid-template-columns: 1fr; gap: 3rem; }
-        .about-title { font-size: 1.8rem; margin-bottom: 1rem; color: var(--accent); }
-        .about-bio, .about-mission { margin-bottom: 1.5rem; line-height: 1.8; }
-        .contact-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 2rem; }
-        .contact-item { display: flex; align-items: center; gap: 0.5rem; padding: 1rem; background: var(--card); border-radius: 0.5rem; }
-        
-        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-        .skill-category { background: var(--card); padding: 2rem; border-radius: 1rem; }
-        .category-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; color: var(--accent); }
-        .skill-item { margin-bottom: 1.5rem; }
-        .skill-header { display: flex; justify-content: space-between; margin-bottom: 0.5rem; }
-        .skill-bar-bg { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
-        .skill-bar-fill { height: 100%; background: var(--accent); transition: width 0.5s ease; border-radius: 4px; }
-        
-        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; }
-        .project-card { background: var(--card); border-radius: 1rem; overflow: hidden; transition: transform 0.3s; }
-        .project-card:hover { transform: translateY(-5px); }
-        .project-img-container { position: relative; overflow: hidden; }
-        .project-img { width: 100%; height: 200px; object-fit: cover; }
-        .project-overlay { position: absolute; inset: 0; background: linear-gradient(45deg, var(--accent), transparent); opacity: 0; transition: opacity 0.3s; }
-        .project-card:hover .project-overlay { opacity: 0.3; }
-        .project-content { padding: 1.5rem; }
-        .project-title { font-size: 1.3rem; margin-bottom: 0.5rem; color: var(--accent); }
-        .project-desc { margin-bottom: 1rem; opacity: 0.9; }
-        .project-tech { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
-        .tech-tag { background: var(--accent); color: white; padding: 0.25rem 0.75rem; border-radius: 1rem; font-size: 0.8rem; }
-        .project-links { display: flex; gap: 1rem; }
-        .project-link { display: flex; align-items: center; gap: 0.5rem; color: var(--accent); text-decoration: none; padding: 0.5rem 1rem; border: 1px solid var(--accent); border-radius: 0.5rem; transition: all 0.2s; }
-        .project-link:hover { background: var(--accent); color: white; }
-        
-        .experience-timeline { position: relative; }
-        .experience-timeline::before { content: ''; position: absolute; left: 20px; top: 0; bottom: 0; width: 2px; background: var(--accent); }
-        .timeline-item { position: relative; padding-left: 60px; margin-bottom: 3rem; }
-        .timeline-dot { position: absolute; left: 12px; top: 8px; width: 16px; height: 16px; background: var(--accent); border-radius: 50%; }
-        .experience-card { background: var(--card); padding: 2rem; border-radius: 1rem; }
-        .job-position { font-size: 1.3rem; color: var(--accent); margin-bottom: 0.5rem; }
-        .job-company { font-size: 1.1rem; margin-bottom: 0.5rem; }
-        .job-duration { color: var(--accent); margin-bottom: 1rem; }
-        
-        .certificates-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
-        .certificate-card { background: var(--card); padding: 1.5rem; border-radius: 1rem; text-align: center; }
-        .certificate-image { width: 80px; height: 80px; border-radius: 0.5rem; margin-bottom: 1rem; object-fit: cover; }
-        .certificate-name { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--accent); }
-        .certificate-issuer { opacity: 0.8; margin-bottom: 0.5rem; }
-        
-        .contact-content { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; }
-        .contact-subtitle { font-size: 1.5rem; margin-bottom: 1rem; color: var(--accent); }
-        .contact-text { margin-bottom: 2rem; line-height: 1.8; }
-        .contact-details { margin-bottom: 2rem; }
-        .contact-detail { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
-        .social-links { display: flex; gap: 1rem; }
-        .social-link { display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background: var(--accent); color: white; border-radius: 50%; text-decoration: none; transition: transform 0.2s; }
-        .social-link:hover { transform: scale(1.1); }
-        .contact-form { display: flex; flex-direction: column; gap: 1.5rem; }
-        .form-group { display: flex; flex-direction: column; }
-        .form-label { margin-bottom: 0.5rem; color: var(--accent); }
-        .form-input, .form-textarea { padding: 1rem; border: 1px solid var(--border); border-radius: 0.5rem; background: var(--bg); color: var(--text); }
-        .form-submit { padding: 1rem 2rem; background: var(--accent); color: white; border: none; border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.5rem; transition: all 0.2s; }
-        .form-submit:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3); }
-        
-        .footer { background: var(--card); padding: 2rem 0; text-align: center; border-top: 1px solid var(--border); }
-        
-        @keyframes bounce { 0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); } 40% { transform: translateX(-50%) translateY(-10px); } 60% { transform: translateX(-50%) translateY(-5px); } }
-        
-        @media (max-width: 768px) {
-          .desktop-menu { display: none; }
-          .mobile-menu-toggle { display: block; }
-          .mobile-menu.show { display: block; }
-          .hero-content { grid-template-columns: 1fr; text-align: center; }
-          .hero-title { font-size: 2.5rem; }
-          .profile-image { width: 200px; height: 200px; }
-          .contact-content { grid-template-columns: 1fr; }
-          .hero-buttons { flex-direction: column; }
-          .projects-grid { grid-template-columns: 1fr; }
-          .skills-grid { grid-template-columns: 1fr; }
-        }
-      `}</style> */}
 
       {/* Navigation */}
       <nav className="navbar">
@@ -599,7 +527,7 @@ const Portfolio = () => {
                 />
               </div>
 
-              <button onClick={handleFormSubmit} className="form-submit">
+              <button  className="form-submit">
                 <Send size={20} />
                 Send Message
               </button>
