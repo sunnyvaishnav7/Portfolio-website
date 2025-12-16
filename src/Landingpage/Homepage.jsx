@@ -309,7 +309,7 @@ const Portfolio = () => {
             </div>
             <div className="sunny-image">
               <img
-                src="https://media.licdn.com/dms/image/v2/D4D03AQF36ZxUoKbDRA/profile-displayphoto-shrink_400_400/B4DZPxsYAHHMAg-/0/1734926762436?e=1754524800&v=beta&t=yFoSOASO8NJVhX-bwhdl06-mcJfWi68aQAMZ2w_2oRU"
+                src="https://media.licdn.com/dms/image/v2/D4D03AQEhnrH24Eq3jQ/profile-displayphoto-crop_800_800/B4DZsSVueUIgAI-/0/1765539247210?e=1767225600&v=beta&t=r0CIQF969gqZ-9V7eQgU95ecOaQ6z8uyA3vndRhoeM8"
                 alt="Profile"
                 className="profile-image"
                 loading="eager"
@@ -547,5 +547,6 @@ const Portfolio = () => {
     </div>
   );
 };
+
 
 export default Portfolio;
